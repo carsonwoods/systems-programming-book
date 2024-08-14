@@ -2,7 +2,7 @@
 
 An interactive collection of lecture notes that introduce core systems programming topics.
 This repository is based on the [_PDC For Beginners_](https://www.learnpdc.org/PDCBeginners/) book.
-Its a great guide to parallel computing and you should go check it out if you're interested.
+It's a great guide to parallel computing and you should go check it out if you're interested.
 
 ## Information for Contributing Authors
 
@@ -16,7 +16,7 @@ This project is served using the [Runestone authoring environment](https://githu
 ### Requirements
 
 The only software required to get started is Python 3
-At the time of writing this, Python 3.11.x was the greatest supported version as 3.12.x removes necesary standard library modules.
+At the time of writing this, Python 3.11.x was the greatest supported version as 3.12.x removes necessary standard library modules.
 Once Python is installed, clone the repository and run the following commands within the repository:
 
 ```
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ## Contribution Guide
 
 The first step is to fork this GitHub repository.
-Once you've got the repository forked, go ahead and clone it and setup your environment.
+Once you've got the repository forked, go ahead and clone it and set up your environment.
 
 Chapter content is added to the `_sources/` directory. For example, if you are
 a chapter 0 section author, your section will be located under
@@ -44,23 +44,23 @@ Directives (see the
 [Runestone Author Guide](https://runestone.academy/runestone/static/authorguide/index.html)
 for details).
 Runestone Directives allow the integration of many interactive
-content, such as videos, multiple choice questions, parson problems and others.
+content, such as videos, multiple choice questions, parson problems, and others.
 
-The follow example illustrates how a particular section may be set up using
+The following example illustrates how a particular section may be set up using
 restructured text and Runestone directives:
 
-```
+```rst
 3.x This is a section heading
 ----------------------------------------
 
-Section content would go here. Notice how the number of hyphens/dashes extend
+Section content would go here. Notice how the number of hyphens/dashes extends
 past the section heading. The number of hyphens must be at least as long as
 the section title itself.
 
 Here is an example of **bold** text. Here is an example of *italicized* text.
 This (:math:`a^2 + b^2 = c^2`) is an example of an in-lined LaTeX math equation.
 
-The following is an example of an standalone math equation:
+The following is an example of a standalone math equation:
 
 .. math::
 
@@ -87,17 +87,17 @@ Here is how a video may be included (from the Runestone documentation):
 
 ### Previewing your work
 
-There are two main commands that an author needs to know in order to preview
+There are two main commands that an author needs to know to preview
 their work locally.
 
-Use the `runestone preview` command to locally compile your changes. Most
+Use the `runestone preview` command to compile your changes locally. Most
 warnings can be ignored. If the project does not build for whatever reason,
 please open an issue.
 
-Once the project has been build, start a local server using the `runestone serve` command.
+Once the project has been built, start a local server using the `runestone serve` command.
 The server is typically served at [https://localhost:8000](https://localhost:8000) when running.
 
-### Trouble shooting tips
+### Troubleshooting tips
 
 Here are some helpful tips if you find yourself getting stuck
 
@@ -111,7 +111,7 @@ Here are some helpful tips if you find yourself getting stuck
 
 - The video format has to be in `mov` format for Runestone to interpret it.
   Annoying, yes, but a tool like `ffmpeg` can automatically do the conversion
-  for you. A command like the following usually works (for mp4 to mov):
+  for you. A command like the following usually works (for `mp4` to `mov`):
   `ffmpeg -i video.mp4 -f mov video.mov`.
 
 ## Merging changes back in
