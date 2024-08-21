@@ -6,7 +6,7 @@ It's a great guide to parallel computing and you should go check it out if you'r
 
 ## Information for Contributing Authors
 
-We happily accept contribution of lecture notes, textbook contents, and additional contributions!
+We happily accept contributions of lecture notes, textbook contents, and additional contributions!
 Please follow the contribution instructions below!
 
 ## Setting up the local authoring environment
