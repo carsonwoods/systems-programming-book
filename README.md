@@ -91,7 +91,7 @@ There are two main commands that an author needs to know to preview
 their work locally.
 
 Use the `runestone preview` command to compile your changes locally. Most
-warnings can be ignored. If the project does not build for whatever reason,
+warnings can be ignored. If the project doesn't build for whatever reason,
 please open an issue.
 
 Once the project has been built, start a local server using the `runestone serve` command.
